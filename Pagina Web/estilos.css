@@ -7,6 +7,9 @@ body {
     background-position: center;
     background-attachment: fixed;
     color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 header {
     background-color: rgba(183, 44, 34, 0.8); /* Usamos rgba para transparencia */
@@ -46,12 +49,38 @@ nav ul li a:hover {
     border-radius: 10px;
 }
 footer {
-    background-color: rgba(51, 51, 51, 0.8); /* Usamos rgba para transparencia */
-    color: white;
+    margin-top: auto;
+    background: #333;
+    color: #fff;
+    padding: 1em;
     text-align: center;
-    padding: 10px 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+}
+.social-media a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.address-box {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.porque_elegirnos-box {
+    background-color: #883838;
+    border: 1px solid #0c0a0a;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: white;
+}
+
+.social-media a:hover {
+    text-decoration: underline;
 }
 
